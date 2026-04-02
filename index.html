@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "description" content = "Laut - Southeast Asian Seafood Restaurant Official Website Home Page">
+    <meta name = "keywords" content = "seafood, restaurant, southeast asian, food, featured dishes, reviews, about us, home page, singapore curry crab laksa, nature's bounty, malaysian prawn mee, steam sea bass, thai grilled tiger prawns, malaysian stir-fried chilli clams">
+    <meta name = "author" content = "Foo Zen-Wen">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Laut</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel = "stylesheet" href = "font/fonts.css">
+
+    <!-- Normalise CSS -->
+    <link rel = "stylesheet" href = "css/normalise.css">
+
+    <!-- Custom CSS Stylesheet -->
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/utility.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/laut-logo-favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class = "navbar">
+        <div class = "container flex">
+            <a href = "index.html" class = "site-brand">
+                Laut
+            </a>
+
+            <button type = "button" id = "navbar-show-btn" class = "flex">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <div id = "navbar-collapse">
+                <button type = "button" id = "navbar-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a href = "index.html" class = "nav-link">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "menu.html" class = "nav-link">Menu</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "about.html" class = "nav-link">About Us</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "reservations.html" class = "nav-link">Reservations</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "contact.html" class = "nav-link">Contact</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "gallery.html" class = "nav-link">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Header -->
+    <header class = "flex">
+        <div class = "container">
+            <div class = "header-title">
+                <h1>Dine With Us</h1>
+                <p>Immerse yourself in the rich flavours of Southeast Asia's coastal heritage. At Laut, we celebrate the vibrant essence of the sea, bringing you the freshest seafood infused with time-honoured spices and traditions.</p>
+            </div>
+            <div class="header-button">
+                <a href="reservations.html"><button type = "button">Make a Reservation</button></a>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Featured section -->
+    <section id = "featured" class = "py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Taste the Bounty of South East Asia</span>
+                <h2 class="lg-title">Discover our Menu</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-natures-bounty.jpg" alt = "featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fa-solid fa-utensils"></i>
+                            Nature's Bounty
+                        </span>
+                        <div>
+                            <p class="text">Our signature medley of the freshest seafood, served with high-quality broth.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-curry-laksa.jpg" alt = "featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fa-solid fa-utensils"></i>
+                            Singapore Curry Crab Laksa
+                        </span>
+                        <div>
+                            <p class="text">Fragrant, crafted with care. Our seafood stock is traditionally prepared and stuffed with fresh crab.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-prawn-mee.jpg" alt = "featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fa-solid fa-utensils"></i>
+                            Malaysian Prawn Mee
+                        </span>
+                        <div>
+                            <p class="text">Bold, deeply savory, and steeped in history and nostalgia. Slow simmered for richness and flavor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-sea-bass.jpg" alt = "featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fa-solid fa-utensils"></i>
+                            Steamed Whole Sea Bass
+                        </span>
+                        <div>
+                            <p class="text">Sometimes, simple is best. Gently steamed with generous ginger, scallions, and chillis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-grilled-prawns.jpg" alt = "featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fa-solid fa-utensils"></i>
+                            Thai Grilled Tiger Prawns
+                        </span>
+                        <div>
+                            <p class="text">Fresh Tiger prawns grilled over traditional charcoal to deliver a smoky, addictive aroma. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/featured-steam-clam.jpg" alt = "featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fa-solid fa-utensils"></i>
+                            Malaysian Stir-Fried Chilli Clams
+                        </span>
+                        <div>
+                            <p class="text">Wok-tossed in a bold, aromatic sauce, delivering deep umami and a hint of heat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-button flex">
+                <a href="menu.html"><button type = "button">Our Menu</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Featured section -->
+
+    <!-- Who section -->
+    <section id = "who" class = "py-4 who">
+        <div class="container">
+            <div class="title-wrap who-title">
+                <h2 class="lg-title">Welcome to Laut</h2>
+            </div>
+            <div class="who-text">
+                <p>Laut’s origins are deeply tied to the rhythm of the sea and the people whose lives depend on it. In 1965, along the bustling docks of Klang, a humble stall stood as a beacon for weary fishermen returning with their fresh catch. Here, Chef Anthony’s grandparents crafted simple yet soulful meals—honest flavors that spoke of home, tradition, and the ocean’s bounty.</p>
+                <p>For decades, their stall became more than just a place to eat; it was a meeting ground, a resting spot, a place where stories were exchanged over steaming bowls of seafood laksa and plates piled high with freshly grilled fish. Their dedication to quality and their understanding of flavors—drawn straight from the waters—earned them a loyal following.</p>
+                <p>Fast-forward to 2008, and Chef Michael took the heart of that stall and elevated it into something new while honoring everything that made it special. Laut’s first fine-dining restaurant opened in Pavilion, Kuala Lumpur, not just as a tribute but as a continuation of a legacy. Every dish that leaves the kitchen carries the same devotion to freshness, authenticity, and respect for tradition, but now presented with the refinement that modern dining allows.</p>
+                <p>What began as a modest food stall has transformed into an experience—one that celebrates Southeast Asian heritage with elevated elegance, while still paying homage to the warm, humble roots from which it grew. Welcome to Laut.</p>
+            </div>
+            <div class="who-image">
+                <img src="images/who-laut-original-stall.png" alt="Laut Original Stall">
+            </div>
+            <div class="who-button flex">
+                <a href="about.html"><button type = "button">Our Story</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Who section -->
+
+    <!-- Testimonal section -->
+    <section id = "testimonials" class = "py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title-alt">Real stories, real flavors—see why our guests keep coming back.</span>
+                <h2 class="test-title">reviews</h2>
+            </div>
+
+            <div class="swiper-container-1 testimony-news-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="test-news-item">
+                            <div class="test-item-info">
+                                <img src="images/test-news-1.png" alt="The Star">
+                            </div>
+                            <h2>The Star</h2>
+                            <p class="text">
+                                "Southeast Asia has its own Marco Pier White"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-news-item">
+                            <div class="test-item-info">
+                                <img src="images/test-news-2.png" alt="Bangkok Post">
+                            </div>
+                            <h2>Bangkok Post</h2>
+                            <p class="text">
+                                "Masterful reimagining of traditional flavors"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-news-item">
+                            <div class="test-item-info">
+                                <img src="images/test-news-3.png" alt="Asia Times">
+                            </div>
+                            <h2>Asia Times</h2>
+                            <p class="text">
+                                "A love letter to Southeast Asian cuisine"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-news-item">
+                            <div class="test-item-info">
+                                <img src="images/test-news-4.png" alt="The Straits Times">
+                            </div>
+                            <h2>The Straits Times</h2>
+                            <p class="text">
+                                "Laut captures the essence of the sea with bold, inventive flavours"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-container-2 testimony-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="test-item">
+                            <p class = "text">
+                                The Curry Crab laksa alone is worth the visit. Bold, rich, and unforgettable.
+                            </p>
+                            <div class="test-item-info">
+                                <h3>Sammy</h3>
+                                <p class="text">"We WILL be back"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-item">
+                            <p class = "text">
+                                Feels like a taste of home, but elevated beyond expectations.
+                            </p>
+                            <div class="test-item-info">
+                                <h3>Jason</h3>
+                                <p class="text">"Evokes Nostalgia!"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-item">
+                            <p class = "text">
+                                Service was warm, the ambiance inviting, and the food? Simply outstanding.
+                            </p>
+                            <div class="test-item-info">
+                                <h3>Daniel</h3>
+                                <p class="text">"Money WELL spent"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-item">
+                            <p class = "text">
+                                Every dish was a masterpiece—authentic flavors and impeccable presentation.
+                            </p>
+                            <div class="test-item-info">
+                                <h3>Jasmine</h3>
+                                <p class="text">"Just WOW"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="test-item">
+                            <p class = "text">
+                                Chef Anthony took my childhood and created a masterpiece of flavours.
+                            </p>
+                            <div class="test-item-info">
+                                <h3>Emily</h3>
+                                <p class="text">"MUST try if you come to KL"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Testimonial section -->
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Laut
+                </a>
+                <p class="text">Laut brings the essence of Southeast Asia to your table—rich heritage, bold flavors, and fresh seafood in every dish. Join us for an unforgettable dining experience where tradition meets refinement.</p>
+            </div>
+
+            <div class="footer-item footer-socials">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Tasty Bites!</h2>
+                <form class="flex">
+                    <input type="email" placeholder = "Enter Email" class = "form-control">
+                    <input type="submit" class = "btn" value = "Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- Custom JS -->
+    <script src = "js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
+    <script>
+        // Initialize Swiper (Testimony Section)
+        const swiper1 = new Swiper('.swiper-container-1', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            coverflowEffect: 
+            {
+                rotate: 50, 
+                stretch: 0, 
+                depth: 100, 
+                modifier: 1, 
+                slideShadows: false 
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: 
+            {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: 
+            {
+                // when window width is >= 768px
+                768: 
+                {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+        });
+
+        const swiper2 = new Swiper('.swiper-container-2', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            breakpoints: 
+            {
+                // when window width is >= 1400px
+                1400: 
+                {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+        });
+    </script>
+</body>
+</html>

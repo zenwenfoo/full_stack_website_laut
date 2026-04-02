@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "description" content = "Laut - Southeast Asian Seafood Restaurant Official Website Reservation Page">
+    <meta name = "keywords" content = "seafood, restaurant, southeast asian, food, featured dishes, reviews, about us, home page, singapore curry crab laksa, nature's bounty, malaysian prawn mee, steam sea bass, thai grilled tiger prawns, malaysian stir-fried chilli clams, laut reservations, seat booking, reservations, laut reservation form">
+    <meta name = "author" content = "Foo Zen-Wen">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Laut</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel = "stylesheet" href = "font/fonts.css">
+
+    <!-- Normalise CSS -->
+    <link rel = "stylesheet" href = "css/normalise.css">
+
+    <!-- Custom CSS Stylesheet -->
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/utility.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/laut-logo-favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class = "navbar">
+        <div class = "container flex">
+            <a href = "index.html" class = "site-brand">
+                Laut
+            </a>
+
+            <button type = "button" id = "navbar-show-btn" class = "flex">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <div id = "navbar-collapse">
+                <button type = "button" id = "navbar-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a href = "index.html" class = "nav-link">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "menu.html" class = "nav-link">Menu</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "about.html" class = "nav-link">About Us</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "reservations.html" class = "nav-link">Reservations</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "contact.html" class = "nav-link">Contact</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "gallery.html" class = "nav-link">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Header -->
+    <header class = "flex header-sm">
+        <div class = "container">
+            <div class = "header-title">
+                <h1>Reservations</h1>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Reservations Section -->
+
+    <section id = "reservations" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class = "title">Book A Table With Us</span>
+                <h2 class="lg-title">Reserve a Table</h2>
+            </div>
+
+            <div class="reservations-row">
+                <form class="reservation-form">
+                    <input type="text" class = "form-control" placeholder = "Your Name*" required>
+                    <input type="email" class = "form-control" placeholder = "Your Email">
+                    <input type="tel" class = "form-control" placeholder = "Your Phone Number*" required>
+                    <select id = "subject" name = "seat number" class = "form-control" required>
+                        <option value="" disabled selected>Select Seat Count*</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <textarea rows = "4" class = "form-control" placeholder = "Any Preferences? (e.g. allergies, seat preferences)" style = "resize:none"></textarea>
+                    <input type="button" class="btn" value = "Submit Reservation">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End of Reservations Section -->
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Laut
+                </a>
+                <p class="text">Laut brings the essence of Southeast Asia to your table—rich heritage, bold flavors, and fresh seafood in every dish. Join us for an unforgettable dining experience where tradition meets refinement.</p>
+            </div>
+
+            <div class="footer-item footer-socials">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Tasty Bites!</h2>
+                <form class="flex">
+                    <input type="email" placeholder = "Enter Email" class = "form-control">
+                    <input type="submit" class = "btn" value = "Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- Custom JS -->
+    <script src = "js/script.js"></script>
+
+</body>
+</html>

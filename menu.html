@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "description" content = "Laut - Southeast Asian Seafood Restaurant Official Website Menu Page">
+    <meta name = "keywords" content = "seafood, restaurant, southeast asian, food, featured dishes, reviews, about us, home page, singapore curry crab laksa, nature's bounty, malaysian prawn mee, steam sea bass, thai grilled tiger prawns, malaysian stir-fried chilli clams, laut menu, laut starter, laut mains, laut shellfish, laut from the grill, laut drinks, laut dessert, starters, mains, shellfish, from the grill, drinks, dessert, laut prices">
+    <meta name = "author" content = "Foo Zen-Wen">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Laut</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel = "stylesheet" href = "font/fonts.css">
+
+    <!-- Normalise CSS -->
+    <link rel = "stylesheet" href = "css/normalise.css">
+
+    <!-- Custom CSS Stylesheet -->
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/utility.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/laut-logo-favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class = "navbar">
+        <div class = "container flex">
+            <a href = "index.html" class = "site-brand">
+                Laut
+            </a>
+
+            <button type = "button" id = "navbar-show-btn" class = "flex">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <div id = "navbar-collapse">
+                <button type = "button" id = "navbar-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a href = "index.html" class = "nav-link">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "menu.html" class = "nav-link">Menu</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "about.html" class = "nav-link">About Us</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "reservations.html" class = "nav-link">Reservations</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "contact.html" class = "nav-link">Contact</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "gallery.html" class = "nav-link">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Header -->
+    <header class = "flex header-sm">
+        <div class = "container">
+            <div class = "header-title">
+                <h1>Our Menu</h1>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Menu Section -->
+
+    <section id = "menu" class="py-4 menu">
+        <div class="container">
+            <div class="title-wrap menu-title">
+                <h2 class="lg-title">Menu</h2>
+            </div>
+
+            <div class="menu-container">
+                <ul class="menu-tabs">
+                    <li class="tab active" data-target = "starters">starters</li>
+                    <li class="tab" data-target = "mains">mains</li>
+                    <li class="tab" data-target = "shellfish">shellfish</li>
+                    <li class="tab" data-target = "fromthegrill">from the grill</li>
+                    <li class="tab" data-target = "drinks">drinks</li>
+                    <li class="tab" data-target = "dessert">dessert</li>
+                </ul>
+
+                <div class="menu-content active" id = "starters">
+                    <div class="menu-columns">
+
+                        <div class="column">
+                            <div class="menu-item">
+                                <h3>Salt & Pepper Squid</h3>
+                                <p>Crispy-fried squid tossed with Szechuan pepper and sea salt. Served with chili-lime aioli.</p>
+                                <span class = "price">RM 22</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Thai Fishcakes</h3>
+                                <p>Fragrant fish patties with green curry paste, herbs, and a sweet chili dip.</p>
+                                <span class = "price">RM 18</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Oyster Trio</h3>
+                                <p>A tasting flight of natural, ponzu, and charred chili oysters.</p>
+                                <span class = "price">RM 28</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Crab Spring Rolls</h3>
+                                <p>Golden parcels of blue swimmer crab with tamarind dipping sauce.</p>
+                                <span class = "price">RM 24</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Mussels in Lemongrass Broth</h3>
+                                <p>Crispy-fried squid tossed with Szechuan pepper and sea salt. Served with chili-lime aioli.</p>
+                                <span class = "price">RM 22</span>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="menu-item">
+                                <h3>Papaya & Prawn Salad</h3>
+                                <p>Shredded green papaya, chili, lime, and grilled tiger prawns.</p>
+                                <span class = "price">RM 23</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Tuna Tartare on Wonton Crisp</h3>
+                                <p>Diced sashimi-grade tuna with soy, sesame, and pickled ginger.</p>
+                                <span class = "price">RM 25</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Chili Garlic Clams</h3>
+                                <p>Wok-tossed lala clams in spicy garlic sauce.</p>
+                                <span class = "price">RM 21</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Soft-Shell Crab with Yuzu Aioli</h3>
+                                <p>Lightly battered and served with citrus yuzu dip.</p>
+                                <span class = "price">RM 30</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Tempura Prawns</h3>
+                                <p>Crispy tiger prawns with wasabi mayo</p>
+                                <span class = "price">RM 27</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menu-content" id = "mains">
+                    <div class="menu-columns">
+
+                        <div class="column">
+                            <div class="menu-item">
+                                <h3>Nature’s Bounty</h3>
+                                <p>Grilled medley of prawns, squid, scallops, and mussels in garlic butter broth.</p>
+                                <span class = "price">RM 48</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Singapore Curry Crab Laksa</h3>
+                                <p>Whole crab in a rich coconut curry with laksa noodles.</p>
+                                <span class = "price">RM 52</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Malaysian Prawn Mee</h3>
+                                <p>Aromatic noodle soup with tiger prawns, egg, and sambal.</p>
+                                <span class = "price">RM 38</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Steamed Whole Sea Bass</h3>
+                                <p>Served with soy-ginger scallion sauce.</p>
+                                <span class = "price">RM 29</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Thai Green Seafood Curry</h3>
+                                <p>Prawns and fish in house-made green curry with jasmine rice.</p>
+                                <span class = "price">RM 36</span>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="menu-item">
+                                <h3>Crispy Skin Barramundi</h3>
+                                <p>On lemongrass potato mash with chili-lime sauce.</p>
+                                <span class = "price">RM42</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Chili Crab Linguine</h3>
+                                <p>Spicy tomato-chili sauce tossed with crab meat.</p>
+                                <span class = "price">RM 40</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Sambal Grilled Stingray</h3>
+                                <p>Banana-leaf grilled with fiery sambal.</p>
+                                <span class = "price">RM 44</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Seafood Nasi Lemak</h3>
+                                <p>A coastal take on the classic—anchovies, prawns, squid sambal, and coconut rice.</p>
+                                <span class = "price">RM 30</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Salted Egg Yolk Prawns</h3>
+                                <p>Crispy prawns coated in creamy salted egg sauce.</p>
+                                <span class = "price">RM 39</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menu-content" id = "shellfish">
+                    <div class="menu-columns">
+
+                        <div class="column">
+                            <div class="menu-item">
+                                <h3>Malaysian Stir-Fried Chili Clams</h3>
+                                <p>Wok-fried with chili, garlic, and fermented bean paste.</p>
+                                <span class = "price">RM 25</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Garlic Butter Lobster</h3>
+                                <p>Half lobster glazed in garlic-herb butter.</p>
+                                <span class = "price">RM 88</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Black Pepper Crab</h3>
+                                <p>Fiery Sarawak pepper sauce with whole crab.</p>
+                                <span class = "price">RM 68</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Sambal Prawns</h3>
+                                <p>Tiger prawns in house sambal with curry leaves.</p>
+                                <span class = "price">RM 43</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Grilled Scallops with XO Sauce</h3>
+                                <p>Seared and glazed with umami-rich XO sauce.</p>
+                                <span class = "price">RM 40</span>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="menu-item">
+                                <h3>Thai Chili Mussels</h3>
+                                <p>Mussels in spicy coconut milk and Thai basil.</p>
+                                <span class = "price">RM 28</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Wok-Tossed Crayfish</h3>
+                                <p>Black bean sauce with spring onions and garlic.</p>
+                                <span class = "price">RM 55</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Glass Noodle Claypot Prawns</h3>
+                                <p>With soy, garlic, and coriander root.</p>
+                                <span class = "price">RM 38</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Clam Skewers with Lemongrass</h3>
+                                <p>Grilled over charcoal and brushed with chili oil.</p>
+                                <span class = "price">RM 22</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Crab Omelette</h3>
+                                <p>Soft folded eggs with crab meat, scallions, and chili soy.</p>
+                                <span class = "price">RM 30</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menu-content" id = "fromthegrill">
+                    <div class="menu-columns">
+
+                        <div class="column">
+
+                            <div class="menu-item">
+                                <h3>Thai Grilled Tiger Prawns</h3>
+                                <p>Marinated in turmeric, lemongrass, and lime.</p>
+                                <span class = "price">RM 42</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Chargrilled Octopus</h3>
+                                <p>With romesco sauce and pickled fennel.</p>
+                                <span class = "price">RM 46</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Teriyaki Salmon Skewers</h3>
+                                <p>Glazed with house-made teriyaki and sesame seeds.</p>
+                                <span class = "price">RM 36</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Smoky Mackerel with Lime Salt</h3>
+                                <p>Served whole with charred calamansi.</p>
+                                <span class = "price">RM 35</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Swordfish Steak with Cajun Rub</h3>
+                                <p>With grilled corn salsa and aioli.</p>
+                                <span class = "price">RM 50</span>
+                            </div>
+                        </div>
+
+                        <div class="column">
+
+                            <div class="menu-item">
+                                <h3>Grilled Pineapple Squid</h3>
+                                <p>Sticky chili caramel glaze with smoky edges.</p>
+                                <span class = "price">RM 37</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Grilled Barramundi in Banana Leaf</h3>
+                                <p>With coconut sambal and torch ginger.</p>
+                                <span class = "price">RM 41</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Surf & Turf Duo</h3>
+                                <p>Skewered beef cubes and grilled prawns.</p>
+                                <span class = "price">RM 58</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Tandoori Sea Bream</h3>
+                                <p>Clay oven–style marinated and chargrilled.</p>
+                                <span class = "price">RM 40</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>BBQ Chili Butter Scallops</h3>
+                                <p>On half shells with micro coriander.</p>
+                                <span class = "price">RM 38</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menu-content" id = "drinks">
+                    <div class="menu-columns">
+
+                        <div class="column">
+
+                            <div class="menu-item">
+                                <h3>Lemongrass Mojito</h3>
+                                <p>Rum, lemongrass syrup, lime, mint, soda.</p>
+                                <span class = "price">RM 18</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Thai Basil Smash</h3>
+                                <p>Gin, basil, lime, and cucumber.</p>
+                                <span class = "price">RM 20</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Chili Mango Mojito</h3>
+                                <p>Mango purée, rum, mint, and a chili kick.</p>
+                                <span class = "price">RM 19</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Salted Calamansi Soda</h3>
+                                <p>Fizzy, citrusy, and just a bit salty.</p>
+                                <span class = "price">RM 12</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Kaffir Lime G&T</h3>
+                                <p>Aromatic twist on the classic.</p>
+                                <span class = "price">RM 12</span>
+                            </div>
+                        </div>
+
+                        <div class="column">
+
+                            <div class="menu-item">
+                                <h3>Cold-Brew Oolong</h3>
+                                <p>Iced, with orange peel and herbs.</p>
+                                <span class = "price">RM 10</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Sparkling Yuzu Lemonade</h3>
+                                <p>Light, tart, and refreshing.</p>
+                                <span class = "price">RM 14</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Pineapple Rum Punch</h3>
+                                <p>Rum shaken with pineapple, citrus, and a dash of spice.</p>
+                                <span class = "price">RM 20</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Coconut Lychee Martini</h3>
+                                <p>Velvety coconut and sweet lychee over chilled vodka.</p>
+                                <span class = "price">RM 21</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Spicy Ginger Margarita</h3>
+                                <p>Tequila and lime with a ginger-chili kick.</p>
+                                <span class = "price">RM 22</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menu-content" id = "dessert">
+                    <div class="menu-columns">
+
+                        <div class="column">
+
+                            <div class="menu-item">
+                                <h3>Mango Sticky Rice</h3>
+                                <p>Fragrant jasmine rice with ripe mango and coconut cream.</p>
+                                <span class = "price">RM 16</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Coconut Pandan Panna Cotta</h3>
+                                <p>Smooth and wobbly with gula melaka syrup.</p>
+                                <span class = "price">RM 17</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Chili Chocolate Mousse</h3>
+                                <p>Rich dark chocolate with a warm chili finish.</p>
+                                <span class = "price">RM 18</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Black Sesame Ice Cream</h3>
+                                <p>Nutty, earthy, and creamy.</p>
+                                <span class = "price">RM 14</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Lemongrass Crème Brûlée</h3>
+                                <p>Aromatic custard with a crackly sugar crust.</p>
+                                <span class = "price">RM 19</span>
+                            </div>
+                        </div>
+
+                        <div class="column">
+
+                            <div class="menu-item">
+                                <h3>Banana Spring Rolls</h3>
+                                <p>With palm sugar caramel and sesame.</p>
+                                <span class = "price">RM 15</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Thai Tea Tiramisu</h3>
+                                <p>A Southeast Asian remix of the classic.</p>
+                                <span class = "price">RM 20</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Durian Cheesecake</h3>
+                                <p>Bold and creamy for the adventurous.</p>
+                                <span class = "price">RM 22</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Pineapple Tart</h3>
+                                <p>Spiced syrup glaze and shortcrust base.</p>
+                                <span class = "price">RM 16</span>
+                            </div>
+                            <div class="menu-item">
+                                <h3>Coconut Sorbet</h3>
+                                <p>Light and frosty finish to any meal.</p>
+                                <span class = "price">RM 12</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Menu Section -->
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Laut
+                </a>
+                <p class="text">Laut brings the essence of Southeast Asia to your table—rich heritage, bold flavors, and fresh seafood in every dish. Join us for an unforgettable dining experience where tradition meets refinement.</p>
+            </div>
+
+            <div class="footer-item footer-socials">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Tasty Bites!</h2>
+                <form class="flex">
+                    <input type="email" placeholder = "Enter Email" class = "form-control">
+                    <input type="submit" class = "btn" value = "Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- Custom JS -->
+    <script src = "js/script.js"></script>
+
+    <script>
+        const tabs = document.querySelectorAll('.tab');
+        const contents = document.querySelectorAll('.menu-content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+            // Deactivate all tabs and sections
+            tabs.forEach(t => t.classList.remove('active'));
+            contents.forEach(c => c.classList.remove('active'));
+
+            // Activate clicked tab and its target section
+            tab.classList.add('active');
+            document.getElementById(tab.dataset.target).classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
