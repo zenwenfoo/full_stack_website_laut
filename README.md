@@ -4,4 +4,5 @@ Full Stack Website project. Southeast Asian restaurant used as design base. Comp
 Includes two versions: v1 and v2. 
 
 v1: Basic web design (HTML/CSS/JS)
+
 v2: Converted to full stack (React/Node/MongoDB)
