@@ -1,0 +1,322 @@
+@media screen and (max-width: 460px) 
+{
+    .featured-item-content 
+    {
+        transform: translateY(68%);
+    }
+}
+
+@media (max-width: 640px)
+{
+    :root 
+    {
+        --form-max-width: 92vw;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .header-title p 
+    {
+        font-size: 1rem;
+    }
+    .featured-row, .footer-row
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .footer-row
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        text-align: center;
+    }
+    .featured-item 
+    {
+        margin: 0;
+    }
+    .footer-row 
+    {
+        text-align: left;
+    }
+    .footer-row .social-links 
+    {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .footer-socials 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .subscribe-form h2
+    {
+        text-align: center;
+    }
+    .subscribe-form form 
+    {
+        align-items: center;
+    }
+    .gallery-row
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .gallery-item 
+    {
+        margin: 0;
+    }
+    .about-row 
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-right 
+    {
+        text-align: justify;
+        padding: 0 1rem;
+    }
+    .container-about-chef 
+    {
+        padding: 0 10rem;
+    }
+    .about-chef-left 
+    {
+        flex: 1 1 55%;
+        max-width: 900px;
+    }
+    .about-chef-right 
+    {
+        flex: 1 1 40%;
+        max-width: 450px;
+    }
+    .foh-section p, .kitchen-section p 
+    {
+        max-width: 600px;
+    }
+}
+@media (max-width: 767px) 
+{
+    .about-chef 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 991.98px) 
+{
+    #profile-btn 
+    {
+        margin-left: 15px;
+        width: 2.4rem;
+        height: 2.4rem;
+        padding: 0;
+        border-radius: 50%;
+    }
+}
+@media screen and (min-width: 992px)
+{
+    .header-title h1 
+    {
+        font-size: 3.8rem;
+    }
+    .button
+    {
+        margin: 0 0.5rem;
+    }
+    #navbar-show-btn 
+    {
+        display: none;
+    }
+    #navbar-collapse
+    {
+        display: block!important;
+        background-color: transparent;
+        transform: translateX(0);
+        height: auto;
+        padding: 0;
+        position: static;
+        width: 100%;
+    }
+    #navbar-close-btn 
+    {
+        display: none;
+    }
+    .navbar-nav 
+    {
+        display: flex;
+        /*justify-content: flex-end;*/
+        gap: 2rem;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .navbar-nav .profile-dropdown 
+    {
+        margin-left: auto;
+        padding-left: 1rem;
+    }
+    .nav-item 
+    {
+        margin: 0;
+        padding: 0 1rem;
+    }
+    .nav-link
+    {
+        color: var(--light-grey);
+        text-align: center;
+    }
+    .nav-link:hover 
+    {
+        background-color: unset;
+        color: var(--light-grey);
+        border-radius: unset;
+        transition: var(--trans);
+        -webkit-text-stroke: 0.5px var(--muted-gold);
+    }
+    .navbar-nav .profile-dropdown .nav-link 
+    {
+        padding: 0.4rem;
+        min-width: 0;
+        width: auto;
+    }
+    #profile-btn 
+    {
+        width: 2.4rem;
+        height: 2.4rem;
+        padding: 0;
+        border-radius: 50%;
+        background: transparent;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #profile-btn:hover 
+    {
+        color: var(--muted-gold);
+    }
+    
+    /* change on scroll */
+    .navbar-cng .navbar-nav .nav-link 
+    {
+        color: var(--gold);
+    }
+    /* testimonials */
+    .test-item-info text
+    {
+        left: 1rem;
+        transform: translateX(0);
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    /* about */
+    .about-row, .contact-row
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .about-row 
+    {
+        align-items: center;
+    }
+    .about-left 
+    {
+        margin: 0;
+    }
+    .about-chef-left 
+    {
+        margin-right: 3rem;
+        padding-left: 1rem;
+    }
+    .about-chef-right 
+    {
+        margin-left: 2rem;
+    }
+    .container-about-chef 
+    {
+        max-width: 1200px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .foh-section p, .kitchen-section p 
+    {
+        max-width: 900px;
+    }
+    .contact-row
+    {
+        row-gap: 0;
+    }
+    .contact-form, .form-control 
+    {
+        margin-left: 0;
+    }
+    .contact-form .form-control:nth-child(1) 
+    {
+        margin-top: 0;
+    }
+    .contact-right 
+    {
+        margin: 0;
+    }
+    .contact-icon 
+    {
+        width: 45px;
+        height: 45px;
+        font-size: 1.4rem;
+        margin: 0 1rem;
+        border-radius: 50%;
+        background-color: var(--charcoal);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-item 
+    {
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .contact-item:nth-child(1) 
+    {
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .about-chef-left
+    {
+        flex: 1 1 60%;
+    }
+    .about-chef-right
+    {
+        flex: 1 1 40%;
+        margin-left: 2rem;
+    }
+}
+@media screen and (min-width: 1200px)
+{
+    .gallery-row 
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .container-about-chef 
+    {
+        padding: 0 4rem;
+    }
+}
+@media screen and (min-width: 1400px) 
+{
+    .featured-row 
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
