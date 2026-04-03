@@ -1,0 +1,30 @@
+# dependencies
+v2/client/node_modules/
+v2/server/node_modules/
+
+# env files
+v2/server/.env
+v2/server/.env.*
+v2/client/.env
+v2/client/.env.*
+
+# uploads
+v2/server/uploads/*
+!v2/server/uploads/.gitkeep
+
+# build files
+v2/client/build/
+v2/client/dist/
+v2/server/build/
+v2/server/dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
